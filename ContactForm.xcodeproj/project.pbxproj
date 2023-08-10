@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D4D798EA2A753FAB000461DF /* ContactFormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D798E92A753FAB000461DF /* ContactFormApp.swift */; };
+		D4D798EC2A753FAC000461DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D798EB2A753FAC000461DF /* ContentView.swift */; };
+		D4D798EE2A753FAD000461DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D798ED2A753FAD000461DF /* Assets.xcassets */; };
+		D4D798F12A753FAD000461DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D798F02A753FAD000461DF /* Preview Assets.xcassets */; };
+		D4D798FB2A753FAE000461DF /* ContactFormTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D798FA2A753FAE000461DF /* ContactFormTests.swift */; };
+		D4D799052A753FAE000461DF /* ContactFormUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D799042A753FAE000461DF /* ContactFormUITests.swift */; };
+		D4D799072A753FAE000461DF /* ContactFormUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D799062A753FAE000461DF /* ContactFormUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D4D798F72A753FAE000461DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D798DE2A753FAB000461DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D798E52A753FAB000461DF;
+			remoteInfo = ContactForm;
+		};
+		D4D799012A753FAE000461DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D4D798DE2A753FAB000461DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4D798E52A753FAB000461DF;
+			remoteInfo = ContactForm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D4D798E62A753FAB000461DF /* ContactForm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactForm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D798E92A753FAB000461DF /* ContactFormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormApp.swift; sourceTree = "<group>"; };
+		D4D798EB2A753FAC000461DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4D798ED2A753FAD000461DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D4D798F02A753FAD000461DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4D798F62A753FAE000461DF /* ContactFormTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactFormTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D798FA2A753FAE000461DF /* ContactFormTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormTests.swift; sourceTree = "<group>"; };
+		D4D799002A753FAE000461DF /* ContactFormUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactFormUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D799042A753FAE000461DF /* ContactFormUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormUITests.swift; sourceTree = "<group>"; };
+		D4D799062A753FAE000461DF /* ContactFormUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D4D798E32A753FAB000461DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D798F32A753FAE000461DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D798FD2A753FAE000461DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D4D798DD2A753FAB000461DF = {
+			isa = PBXGroup;
+			children = (
+				D4D798E82A753FAB000461DF /* ContactForm */,
+				D4D798F92A753FAE000461DF /* ContactFormTests */,
+				D4D799032A753FAE000461DF /* ContactFormUITests */,
+				D4D798E72A753FAB000461DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D4D798E72A753FAB000461DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4D798E62A753FAB000461DF /* ContactForm.app */,
+				D4D798F62A753FAE000461DF /* ContactFormTests.xctest */,
+				D4D799002A753FAE000461DF /* ContactFormUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D4D798E82A753FAB000461DF /* ContactForm */ = {
+			isa = PBXGroup;
+			children = (
+				D4D798E92A753FAB000461DF /* ContactFormApp.swift */,
+				D4D798EB2A753FAC000461DF /* ContentView.swift */,
+				D4D798ED2A753FAD000461DF /* Assets.xcassets */,
+				D4D798EF2A753FAD000461DF /* Preview Content */,
+			);
+			path = ContactForm;
+			sourceTree = "<group>";
+		};
+		D4D798EF2A753FAD000461DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D4D798F02A753FAD000461DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4D798F92A753FAE000461DF /* ContactFormTests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D798FA2A753FAE000461DF /* ContactFormTests.swift */,
+			);
+			path = ContactFormTests;
+			sourceTree = "<group>";
+		};
+		D4D799032A753FAE000461DF /* ContactFormUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D4D799042A753FAE000461DF /* ContactFormUITests.swift */,
+				D4D799062A753FAE000461DF /* ContactFormUITestsLaunchTests.swift */,
+			);
+			path = ContactFormUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D4D798E52A753FAB000461DF /* ContactForm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D7990A2A753FAE000461DF /* Build configuration list for PBXNativeTarget "ContactForm" */;
+			buildPhases = (
+				D4D798E22A753FAB000461DF /* Sources */,
+				D4D798E32A753FAB000461DF /* Frameworks */,
+				D4D798E42A753FAB000461DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContactForm;
+			productName = ContactForm;
+			productReference = D4D798E62A753FAB000461DF /* ContactForm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D4D798F52A753FAE000461DF /* ContactFormTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D7990D2A753FAE000461DF /* Build configuration list for PBXNativeTarget "ContactFormTests" */;
+			buildPhases = (
+				D4D798F22A753FAE000461DF /* Sources */,
+				D4D798F32A753FAE000461DF /* Frameworks */,
+				D4D798F42A753FAE000461DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D798F82A753FAE000461DF /* PBXTargetDependency */,
+			);
+			name = ContactFormTests;
+			productName = ContactFormTests;
+			productReference = D4D798F62A753FAE000461DF /* ContactFormTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D4D798FF2A753FAE000461DF /* ContactFormUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D4D799102A753FAE000461DF /* Build configuration list for PBXNativeTarget "ContactFormUITests" */;
+			buildPhases = (
+				D4D798FC2A753FAE000461DF /* Sources */,
+				D4D798FD2A753FAE000461DF /* Frameworks */,
+				D4D798FE2A753FAE000461DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4D799022A753FAE000461DF /* PBXTargetDependency */,
+			);
+			name = ContactFormUITests;
+			productName = ContactFormUITests;
+			productReference = D4D799002A753FAE000461DF /* ContactFormUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D4D798DE2A753FAB000461DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D4D798E52A753FAB000461DF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D4D798F52A753FAE000461DF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D4D798E52A753FAB000461DF;
+					};
+					D4D798FF2A753FAE000461DF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D4D798E52A753FAB000461DF;
+					};
+				};
+			};
+			buildConfigurationList = D4D798E12A753FAB000461DF /* Build configuration list for PBXProject "ContactForm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D4D798DD2A753FAB000461DF;
+			productRefGroup = D4D798E72A753FAB000461DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D4D798E52A753FAB000461DF /* ContactForm */,
+				D4D798F52A753FAE000461DF /* ContactFormTests */,
+				D4D798FF2A753FAE000461DF /* ContactFormUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D4D798E42A753FAB000461DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D798F12A753FAD000461DF /* Preview Assets.xcassets in Resources */,
+				D4D798EE2A753FAD000461DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D798F42A753FAE000461DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D798FE2A753FAE000461DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D4D798E22A753FAB000461DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D798EC2A753FAC000461DF /* ContentView.swift in Sources */,
+				D4D798EA2A753FAB000461DF /* ContactFormApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D798F22A753FAE000461DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D798FB2A753FAE000461DF /* ContactFormTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4D798FC2A753FAE000461DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4D799052A753FAE000461DF /* ContactFormUITests.swift in Sources */,
+				D4D799072A753FAE000461DF /* ContactFormUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D4D798F82A753FAE000461DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D798E52A753FAB000461DF /* ContactForm */;
+			targetProxy = D4D798F72A753FAE000461DF /* PBXContainerItemProxy */;
+		};
+		D4D799022A753FAE000461DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4D798E52A753FAB000461DF /* ContactForm */;
+			targetProxy = D4D799012A753FAE000461DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D4D799082A753FAE000461DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D4D799092A753FAE000461DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D4D7990B2A753FAE000461DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContactForm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.ContactForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D4D7990C2A753FAE000461DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ContactForm/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.ContactForm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D4D7990E2A753FAE000461DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.ContactFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactForm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ContactForm";
+			};
+			name = Debug;
+		};
+		D4D7990F2A753FAE000461DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.ContactFormTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactForm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ContactForm";
+			};
+			name = Release;
+		};
+		D4D799112A753FAE000461DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.ContactFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactForm;
+			};
+			name = Debug;
+		};
+		D4D799122A753FAE000461DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = eyh.com.ContactFormUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ContactForm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D4D798E12A753FAB000461DF /* Build configuration list for PBXProject "ContactForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D799082A753FAE000461DF /* Debug */,
+				D4D799092A753FAE000461DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D7990A2A753FAE000461DF /* Build configuration list for PBXNativeTarget "ContactForm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D7990B2A753FAE000461DF /* Debug */,
+				D4D7990C2A753FAE000461DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D7990D2A753FAE000461DF /* Build configuration list for PBXNativeTarget "ContactFormTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D7990E2A753FAE000461DF /* Debug */,
+				D4D7990F2A753FAE000461DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D4D799102A753FAE000461DF /* Build configuration list for PBXNativeTarget "ContactFormUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4D799112A753FAE000461DF /* Debug */,
+				D4D799122A753FAE000461DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D4D798DE2A753FAB000461DF /* Project object */;
+}
